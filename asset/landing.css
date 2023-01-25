@@ -1,0 +1,137 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+
+:root{
+    --white-color:#fff;
+    --green-color:#2DB878;
+    --dark-green-color:#;
+    --text-dark-color:#535353;
+    --background-footer-color:#464A4E;
+    --background-icon-message:#03A84E;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.slider{
+    background: url('/asset/img/bg-carousel.png');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-slider{
+    font-family: 'Poppins', sans-serif;
+    padding: 230px 150px;
+}
+
+.container-slider h1{
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--white-color);
+}
+
+.container-slider p{
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--white-color);
+}
+
+.container-slider a{
+    margin-top: 2rem;
+    padding: 10px 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about-us{
+    padding-top: 130px;
+    color: var(--text-dark-color);
+}
+
+.services{
+    margin-top: 120px;
+}
+
+.content{
+    justify-content: center;
+}
+
+.content-text{
+    background: var(--white-color);
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.19);;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content-text h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.services .content{
+    text-align: center;
+}
+
+.title h1{
+    margin-bottom: 40px;
+}
+
+.about-stat{
+    margin-top: 100px;
+}
+
+.stat h4{
+    text-align: center;
+}
+
+.container-banner{
+    display: flex;
+    padding: 5rem;
+    margin: 200px 100px;    
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(102.41deg, #108BBC -10.4%, #02C39A 70.02%);
+    border-radius: 25px;
+}
+
+.container-text{
+    width: 750px;
+}
+
+.container-text{
+    color: var(--white-color);
+}
+
+.mobile-preview{
+    margin-top: -170px;
+}
+
+.wrapperSlider{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.wrap-partnership{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partnership{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.partnership-item img{
+    width: 70px;
+}
+
+.contact-us{
+    margin: 100px 150px 100px 150px;
+}
+
+.footer{
+    margin: 0 150px 0px 150px;
+}
